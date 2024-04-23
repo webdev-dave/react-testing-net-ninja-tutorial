@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen. ;
+  const linkElement = screen.getByText("error");
   expect(linkElement).toBeInTheDocument();
 });
